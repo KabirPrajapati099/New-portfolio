@@ -1,375 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <!-- Basic -->
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Primary SEO -->
-<title>Kabir Prajapati — UI/UX Designer in Nepal</title>
-
-<meta
-    name="description"
-    content="Kabir Prajapati is a UI/UX designer from Nepal specializing in mobile app design, web design, UX research, prototyping, and design systems."
->
-
-<meta
-    name="keywords"
-    content="Kabir Prajapati, UI/UX Designer, UX Designer Nepal, UI Designer Nepal, UI/UX Designer Nepal, Figma Designer, Mobile App Designer, Web Designer"
->
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0B0F1A">
+<title>Kabir Prajapati | UI/UX & Product Designer</title>
+<meta name="description" content="Portfolio of Kabir Prajapati, a UI/UX and product designer based in Bhaktapur, Nepal. Digital products, mobile apps and creative design projects.">
 <meta name="author" content="Kabir Prajapati">
-
-<!-- Search Engine Instructions -->
-<meta name="robots" content="index, follow">
-
-<!-- Canonical URL -->
-<link
-    rel="canonical"
-    href="https://kabir-prajapati.vercel.app/"
->
-
-<!-- Open Graph / Social Sharing -->
-<meta property="og:type" content="website">
-
-<meta
-    property="og:title"
-    content="Kabir Prajapati — UI/UX Designer in Nepal"
->
-
-<meta
-    property="og:description"
-    content="Explore the portfolio of Kabir Prajapati, a UI/UX designer from Nepal specializing in mobile apps, web interfaces, UX research, prototyping, and design systems."
->
-
-<meta
-    property="og:url"
-    content="https://kabir-prajapati.vercel.app/"
->
-
-<meta
-    property="og:site_name"
-    content="Kabir Prajapati"
->
-
-<meta
-    property="og:image"
-    content="https://kabir-prajapati.vercel.app/resources/profile-pic.png"
->
-
-<meta
-    property="og:image:alt"
-    content="Kabir Prajapati UI/UX Designer Portfolio"
->
-
-
-<!-- WebSite Structured Data -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Kabir Prajapati",
-    "url": "https://kabir-prajapati.vercel.app/"
-}
-</script>
-<!-- Person Structured Data -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Kabir Prajapati",
-    "url": "https://kabir-prajapati.vercel.app/",
-    "jobTitle": "UI/UX Designer",
-    "description": "UI/UX designer from Nepal specializing in mobile app design, web design, UX research, prototyping, and design systems.",
-    "sameAs": [
-        "https://www.linkedin.com/in/kabir-prajapati-4a11b6278"
-    ]
-}
-</script>
-
-
-<!-- Your Existing CSS -->
- <link rel="icon" type="image/png" href="resources/favicon.png">
-<link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Public+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 </head>
 <body>
 
-<!-- Custom cursor (desktop only) -->
-<div class="cursor-dot" aria-hidden="true"></div>
-<div class="cursor-ring" aria-hidden="true"></div>
-
-<!-- Preloader -->
-<div class="preloader" id="preloader" aria-hidden="true">
-  <svg class="preloader-line" viewBox="0 0 300 40" width="220">
-    <line x1="10" y1="20" x2="290" y2="20" stroke="var(--ink)" stroke-width="1.5"/>
-    <circle class="preloader-nib" cx="10" cy="20" r="4" fill="var(--red)"/>
-  </svg>
-  <p class="preloader-label">DRAFTING&nbsp;/&nbsp;01</p>
+<div class="loader" id="loader" aria-hidden="true">
+  <span class="l-name">Kabir Prajapati</span>
+  <b class="l-count" id="l-count">0</b>
+  <i class="l-bar"><u id="l-bar"></u></i>
 </div>
 
-<!-- Grain overlay -->
-<div class="grain" aria-hidden="true"></div>
+<div class="blob b1" aria-hidden="true"></div>
+<div class="blob b2" aria-hidden="true"></div>
+<div class="bgword" id="bgword" aria-hidden="true">DESIGN • CRAFT • DESIGN</div>
+<div class="ring" id="ring" aria-hidden="true"></div>
 
-<!-- NAV -->
-<header class="site-nav" id="siteNav">
-  <div class="nav-ruler" aria-hidden="true"></div>
-  <div class="nav-inner">
-    <a href="#top" class="nav-logo" aria-label="Kabir Prajapati — home">
-      <span class="nav-logo-mark">K.P</span>
-      <span class="nav-logo-sub">index</span>
-    </a>
-    <nav class="nav-links" id="navLinks">
-      <a href="#work" data-nav>Work</a>
-      <a href="#about" data-nav>About</a>
-      <a href="#process" data-nav>Process</a>
-      <a href="#contact" data-nav>Contact</a>
-    </nav>
-    <a href="#contact" class="nav-cta" data-nav>
-      <span>Say hello</span>
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 12L12 2M12 2H4M12 2V10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span>
-    </button>
-  </div>
+<header class="top">
+  <a href="#home" class="brand" data-go="0" aria-label="Kabir Prajapati, home"><span>K</span>Kabir Prajapati</a>
+  <nav aria-label="Main">
+    <a href="#work" data-go="1">Work</a>
+    <a href="#about" data-go="2">About</a>
+    <a href="#toolkit" data-go="3">Toolkit</a>
+    <a href="#contact" data-go="4">Contact</a>
+  </nav>
+  <div class="clock"><i></i>Bhaktapur <time id="clock">--:--</time></div>
 </header>
 
-<!-- Mobile menu sheet -->
-<div class="mobile-sheet" id="mobileSheet">
-  <div class="mobile-sheet-grid" aria-hidden="true"></div>
-  <nav class="mobile-links">
-    <a href="#work" data-nav data-mobile-nav><span>01</span>Work</a>
-    <a href="#about" data-nav data-mobile-nav><span>02</span>About</a>
-    <a href="#process" data-nav data-mobile-nav><span>03</span>Process</a>
-    <a href="#contact" data-nav data-mobile-nav><span>04</span>Contact</a>
-  </nav>
-  <p class="mobile-sheet-foot">Bhaktapur, Nepal &nbsp;·&nbsp; Available for select work</p>
-</div>
+<main id="h">
 
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero-grid" aria-hidden="true"></div>
-    <div class="hero-inner">
-      <p class="eyebrow reveal-up" data-reveal>
-        <span class="eyebrow-dot"></span>
-        UI/UX Designer &amp; SEO Content Writer — based in Nepal
-      </p>
-      <h1 class="hero-title">
-        <span class="reveal-line"><span class="reveal-inner">I design interfaces,</span></span>
-        <span class="reveal-line"><span class="reveal-inner">and write words that</span></span>
-        <span class="reveal-line"><span class="reveal-inner"><em>rank &amp; convert.</em></span></span>
+  <!-- HOME -->
+  <section class="panel hero" id="home">
+    <div class="hero-text">
+      <p class="hello" data-r>Hello, I'm Kabir, a UI/UX designer from Nepal.</p>
+      <h1 data-split>
+        <span class="ln">I turn ideas</span>
+        <span class="ln o">into digital</span>
+        <span class="ln g">experiences.</span>
       </h1>
-      <p class="hero-sub reveal-up" data-reveal>
-        Currently interning at Orbosis Global, Indore — designing product systems and
-        studying Information Technology. Five projects below: three shipped design
-        systems, two pieces of SEO content built to perform.
-      </p>
-      <div class="hero-actions reveal-up" data-reveal>
-        <a href="#work" class="btn btn-primary" data-nav>
-          <span>View the work</span>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p class="lead" data-r>I design thoughtful, intuitive products and write search-friendly content. Currently designing at Orbosis Global in Indore.</p>
+      <div class="btns" data-r>
+        <a href="#work" class="btn" data-go="1" data-mag>See my work</a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=kabirpzpt23@gmail.com&su=Portfolio%20Enquiry"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+          >
+         Email me
         </a>
-        <a href="#contact" class="btn btn-ghost" data-nav>Start a project</a>
+        
       </div>
+    </div>
 
-      <svg class="hero-instrument" viewBox="0 0 240 240" aria-hidden="true">
-        <circle cx="120" cy="120" r="90" fill="none" stroke="var(--line)" stroke-width="1"/>
-        <circle cx="120" cy="120" r="60" fill="none" stroke="var(--line)" stroke-width="1" stroke-dasharray="2 6"/>
-        <g class="instrument-arm">
-          <line x1="120" y1="120" x2="120" y2="30" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round"/>
-          <line x1="120" y1="120" x2="185" y2="165" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round"/>
-          <circle cx="120" cy="120" r="4" fill="var(--red)"/>
-          <circle cx="120" cy="30" r="3" fill="var(--ink)"/>
-          <circle cx="185" cy="165" r="3" fill="var(--ink)"/>
-        </g>
-        <text x="120" y="226" text-anchor="middle" font-family="JetBrains Mono" font-size="9" fill="var(--ink-soft)" letter-spacing="1">FIG. 01 — COMPASS</text>
+    <figure class="portrait" id="portrait">
+      <div class="arch-back"></div>
+      <div class="arch">
+        <img src="resources/profile-pic.png" alt="Portrait of Kabir Prajapati" onerror="this.remove()">
+        <span class="mono" aria-hidden="true">K</span>
+      </div>
+      <svg class="badge" viewBox="0 0 120 120" aria-hidden="true">
+        <defs><path id="c" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+        <text><textPath href="#c">UI/UX DESIGNER • SEO WRITER • BHAKTAPUR •</textPath></text>
+        <circle cx="60" cy="60" r="7"/>
       </svg>
-    </div>
+      <span class="chip c1">Figma</span>
+      <span class="chip c2">Design systems</span>
+      <span class="chip c3">SEO content</span>
+    </figure>
 
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <span>FIGMA</span><span>STITCH AI</span><span>DESIGN SYSTEMS</span><span>SEO WRITING</span><span>UX RESEARCH</span><span>PROTOTYPING</span><span>CONTENT STRATEGY</span>
-        <span>FIGMA</span><span>STITCH AI</span><span>DESIGN SYSTEMS</span><span>SEO WRITING</span><span>UX RESEARCH</span><span>PROTOTYPING</span><span>CONTENT STRATEGY</span>
-      </div>
-    </div>
+    <div class="hint" id="hint" aria-hidden="true">Scroll to move sideways <span>→</span></div>
   </section>
 
   <!-- WORK -->
-  <section class="work" id="work">
-    <div class="section-head">
-      <p class="section-eyebrow" data-reveal>Selected Work / 02</p>
-      <h2 class="section-title" data-reveal>
-        Five projects<svg class="underline-svg" viewBox="0 0 300 12" preserveAspectRatio="none"><path d="M2 8 C 80 2, 220 10, 298 4" stroke="var(--red)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
-      </h2>
-      <p class="section-desc" data-reveal>Three shipped design systems, two SEO-driven content pieces. Filter by discipline or scan them all.</p>
+  <section class="panel work" id="work">
+    <div class="wintro">
+      <h2 data-split><span class="ln">My creative</span><span class="ln g">space.</span></h2>
+      <p data-r>Digital products, interface studies and content projects. Open any card for the story behind it.</p>
     </div>
 
-    <div class="filter-bar" data-reveal role="tablist" aria-label="Filter projects by category">
-      <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All work <span>05</span></button>
-      <button class="filter-btn" data-filter="uiux" role="tab" aria-selected="false">UI/UX Design <span>03</span></button>
-      <button class="filter-btn" data-filter="seo" role="tab" aria-selected="false">SEO Writing <span>02</span></button>
-    </div>
+    <div class="cw" data-t><button class="card" data-p="myplay" aria-haspopup="dialog">
+      <div class="art a1"><small>Entertainment</small><h3>Watch.<br>Feel.<br>Belong.</h3><div class="langs"><i>Hindi</i><i>Marathi</i><i>Malvi</i><i>Rajasthani</i></div></div>
+      <div class="info"><h4>My Play</h4><p>A regional OTT concept celebrating Indian languages and stories.</p><span class="tags">OTT · Mobile app · Product design</span></div>
+    </button></div>
 
-    <div class="project-grid" id="projectGrid"><!-- injected by JS --></div>
+    <div class="cw" data-t><button class="card" data-p="tuvgo" aria-haspopup="dialog">
+      <div class="art a2"><small>Mobility</small><h3>Everything under control.</h3><div class="phone"><b>✓</b>Vehicle overview</div></div>
+      <div class="info"><h4>TÜV Go <em class="dev">In development</em></h4><p>Making inspection, service info and maintenance easier to follow.</p><span class="tags">Mobile app · UX design</span></div>
+    </button></div>
+
+    <div class="cw" data-t><button class="card" data-p="loanease" aria-haspopup="dialog">
+      <div class="art a3"><small>Fintech</small><h3>One step closer to your goals.</h3><div class="meter"><u></u></div><span class="pct">65%</span></div>
+      <div class="info"><h4>Loan Ease <em class="dev">In development</em></h4><p>A guided NBFC loan journey with uploads, verification and tracking.</p><span class="tags">Fintech · Mobile app</span></div>
+    </button></div>
+
+    <div class="cw" data-t><button class="card" data-p="seo" aria-haspopup="dialog">
+      <div class="art a4"><small>Strategy</small><h3>Be found.<br>Be relevant.<br>Be remembered.</h3></div>
+      <div class="info"><h4>Local SEO Playbook</h4><p>A practical guide to local search visibility for service businesses.</p><span class="tags">Local SEO · Content strategy</span></div>
+    </button></div>
+
+    <div class="cw" data-t><button class="card" data-p="content" aria-haspopup="dialog">
+      <div class="art a5"><small>Structure</small><h3>Structure with a purpose.</h3><div class="doc"><i>H1</i><i>H2</i><i>H3</i></div></div>
+      <div class="info"><h4>Content Structure That Ranks</h4><p>Heading hierarchy, search intent and internal linking, explored.</p><span class="tags">SEO writing · Architecture</span></div>
+    </button></div>
+
+    <blockquote class="wend" data-r>Design is not decoration. It's how an idea becomes an experience.</blockquote>
   </section>
 
   <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-visual" data-reveal>
-      <div class="mono-portrait">
-        <img src="resources/profile-pic.png" alt="KP"> 
-        <svg class="mono-portrait-ring" viewBox="0 0 200 200" aria-hidden="true">
-          <circle cx="100" cy="100" r="98" fill="none" stroke="var(--ink)" stroke-width="1" stroke-dasharray="1 7"/>
-        </svg>
-      </div>
-      <p class="about-tag">Bhaktapur, Nepal<br>UTC +5:45</p>
+  <section class="panel about" id="about">
+    <div class="a-main">
+      <h2 data-split><span class="ln">Curious by nature.</span><span class="ln g">Thoughtful by design.</span></h2>
+      <p data-r>I'm Kabir Prajapati, a UI/UX designer from Bhaktapur, finishing my Bachelor's in Information Technology. I turn ideas into interfaces that are simple to understand and comfortable to use.</p>
+      <p data-r>My process runs from user needs and information structure to wireframes, high-fidelity screens and prototypes. My internship at Orbosis Global gave me hands-on product workflow experience, and SEO writing sharpens how I organise information.</p>
     </div>
-    <div class="about-copy">
-      <p class="section-eyebrow" data-reveal>About / 03</p>
-      <h2 class="section-title" data-reveal>
-        Craft runs in the family<svg class="underline-svg" viewBox="0 0 300 12" preserveAspectRatio="none"><path d="M2 8 C 80 2, 220 10, 298 4" stroke="var(--red)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
-      </h2>
-      <p class="about-lead" data-reveal>
-        I'm a UI/UX designer and SEO content writer currently interning at Orbosis Global Pvt. Ltd. in Indore, where I split my time between building product design systems and writing content that's meant to actually rank. Alongside that, I'm completing a Bachelor's in Information Technology at Padmashree College 
-        — a mix that keeps me equally comfortable in Figma and in a spreadsheet of keyword data. My final year project applies machine learning to predict how healthy a packaged food product is, just from its ingredient list, and that same instinct — define the problem precisely before touching the tool 
-        — is how I approach every design brief and every article outline. Whether I'm structuring a screen flow or a heading hierarchy, the goal is the same: make something a person can move through without friction.
-      </p>
-      <div class="about-skills" data-reveal>
-        <div class="skill-col">
-          <p class="skill-col-title">Design</p>
-          <ul><li>Figma</li><li>Stitch AI</li><li>Design Systems</li><li>Prototyping</li><li>Motion &amp; micro-interaction</li></ul>
-        </div>
-        <div class="skill-col">
-          <p class="skill-col-title">Writing</p>
-          <ul><li>SEO Content Strategy</li><li>On-page Optimisation</li><li>UX Writing</li><li>Technical Documentation</li></ul>
-        </div>
-        <div class="skill-col">
-          <p class="skill-col-title">Currently studying</p>
-          <ul><li>B.I.T — Padmashree College</li><li>ML for Food Health Prediction</li><li>Applied Networking &amp; Systems</li></ul>
-        </div>
-      </div>
-    </div>
+    <dl class="facts">
+      <div data-r><dt>Education</dt><dd>Bachelor of Information Technology<br><span>Padmashree College</span></dd></div>
+      <div data-r><dt>Experience</dt><dd>UI/UX Design Intern<br><span>Orbosis Global Pvt. Ltd.</span></dd></div>
+      <div data-r><dt>Based in</dt><dd>Bhaktapur, Nepal<br><span>UTC +5:45</span></dd></div>
+      <div data-r><dt>Focus</dt><dd>UI/UX & product design<br><span>Digital experiences and interfaces</span></dd></div>
+    </dl>
   </section>
 
-  <!-- PROCESS -->
-  <section class="process" id="process">
-    <div class="section-head">
-      <p class="section-eyebrow" data-reveal>How I Work / 04</p>
-      <h2 class="section-title" data-reveal>
-        From brief to build<svg class="underline-svg" viewBox="0 0 300 12" preserveAspectRatio="none"><path d="M2 8 C 80 2, 220 10, 298 4" stroke="var(--red)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
-      </h2>
-    </div>
-    <div class="process-grid">
-      <div class="process-step" data-reveal>
-        <span class="process-num">01</span>
-        <h3>Research the brief</h3>
-        <p>Define the real problem — user, constraint, and what "done" looks like — before opening any tool.</p>
-      </div>
-      <div class="process-step" data-reveal>
-        <span class="process-num">02</span>
-        <h3>Structure the system</h3>
-        <p>Tokens, type scale, spacing and states first, so every screen after the first one is faster and more consistent.</p>
-      </div>
-      <div class="process-step" data-reveal>
-        <span class="process-num">03</span>
-        <h3>Prototype in Stitch AI</h3>
-        <p>Draft screen-level prompts against the system, then hand-tune what the model gets close but not exact.</p>
-      </div>
-      <div class="process-step" data-reveal>
-        <span class="process-num">04</span>
-        <h3>Ship &amp; document</h3>
-        <p>Hand off a living style guide — not a one-off screen — so the next person can extend it without me.</p>
-      </div>
-    </div>
+  <!-- TOOLKIT -->
+  <section class="panel toolkit" id="toolkit">
+    <h2 class="tk-h" data-split><span class="ln">Tools &amp;</span><span class="ln g">capabilities.</span></h2>
+    <div class="tool" data-r><b>Figma</b><span>Interface design and prototyping</span></div>
+    <div class="tool" data-r><b>Canva</b><span>Visual design and content</span></div>
+    <div class="tool" data-r><b>Illustrator</b><span>Graphics and visual exploration</span></div>
+    <div class="tool" data-r><b>Design systems</b><span>Components and consistency</span></div>
+    <div class="tool" data-r><b>Prototyping</b><span>Flows and interactions</span></div>
+    <div class="tool" data-r><b>SEO writing</b><span>Search-focused content</span></div>
   </section>
 
   <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="contact-inner">
-      <div class="contact-left">
-        <p class="section-eyebrow" data-reveal>Get in touch / 05</p>
-        <h2 class="section-title" data-reveal>
-          Have a project<br>in mind?<svg class="underline-svg" viewBox="0 0 300 12" preserveAspectRatio="none"><path d="M2 8 C 80 2, 220 10, 298 4" stroke="var(--red)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
-        </h2>
-        <p class="section-desc" data-reveal>Tell me what you're building. I read every message and reply within a couple of days.</p>
-        <div class="contact-meta" data-reveal>
-          <div>
-            <span class="contact-meta-label">Email</span>
-            <span class="contact-meta-value" id="contactEmail">kabirpzpt23@gmail.com</span>
-          </div>
-          <div>
-            <span class="contact-meta-label">Based in</span>
-            <span class="contact-meta-value">Bhaktapur, Nepal</span>
-          </div>
-          <div>
-            <span class="contact-meta-label">Status</span>
-            <span class="contact-meta-value"><span class="status-dot"></span> Open to select freelance work</span>
-          </div>
-        </div>
+  <section class="panel contact" id="contact">
+    <div class="c-in">
+      <h2 data-split><span class="ln">Good ideas deserve</span><span class="ln g">good conversations.</span></h2>
+      <p data-r>Looking for a junior UI/UX designer, a design intern, or a creative collaborator? I'd be glad to hear from you.</p>
+      <a class="mail" href="mailto:kabirpzpt23@gmail.com?subject=Portfolio%20Enquiry" data-mag>kabirpzpt23@gmail.com</a>
+      <div class="c-row" data-r>
+        <span><i></i>Open to junior UI/UX roles, internships and collaborations</span>
+        <a href="#home" data-go="0">Back to start ↺</a>
+        <span>© <span id="year">2026</span> Kabir Prajapati</span>
       </div>
-
-      <form class="contact-form" id="contactForm" novalidate data-reveal>
-        <div class="field">
-          <label for="fName">Name</label>
-          <input type="text" id="fName" name="name" placeholder="Your full name" autocomplete="name">
-          <span class="field-error" id="err-name" role="alert"></span>
-        </div>
-        <div class="field">
-          <label for="fEmail">Email</label>
-          <input type="email" id="fEmail" name="email" placeholder="you@company.com" autocomplete="email">
-          <span class="field-error" id="err-email" role="alert"></span>
-        </div>
-        <div class="field">
-          <label for="fSubject">Project type</label>
-          <select id="fSubject" name="subject">
-            <option value="UI/UX Design">UI/UX Design</option>
-            <option value="SEO Content Writing">SEO Content Writing</option>
-            <option value="Both / Not sure yet">Both / Not sure yet</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="fMessage">Message</label>
-          <textarea id="fMessage" name="message" rows="4" placeholder="A little about your project, timeline, and budget..."></textarea>
-          <span class="field-error" id="err-message" role="alert"></span>
-        </div>
-        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
-          <span class="btn-submit-label">Send message</span>
-          <span class="btn-submit-stamp" aria-hidden="true">SENT ✓</span>
-        </button>
-        <p class="form-note">Submitting opens your email client with this message pre-filled — nothing is stored on a server.</p>
-      </form>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Kabir Prajapati. Designed &amp; built on paper first.</p>
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M8 3L3 8M8 3L13 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
-  </footer>
-
 </main>
 
-<!-- PROJECT MODAL -->
-<div class="modal-overlay" id="modalOverlay">
-  <div class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modalSheet">
-    <div class="modal-topbar">
-      <span class="modal-index" id="modalIndex">01 / 05</span>
-      <div class="modal-topbar-actions">
-        <button class="modal-nav-btn" id="modalPrev" aria-label="Previous project">←</button>
-        <button class="modal-nav-btn" id="modalNext" aria-label="Next project">→</button>
-        <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
-      </div>
-    </div>
-    <div class="modal-body" id="modalBody"><!-- injected by JS --></div>
-  </div>
-</div>
+<div class="prog" aria-hidden="true"><span id="p-label">01 / 05 Home</span><i><u id="p-fill"></u></i></div>
 
-<script src="script.js"></script>
+<dialog class="dlg" id="dlg">
+  <div class="dlg-in">
+    <button type="button" class="x" id="x" aria-label="Close project details">×</button>
+    <small id="d-cat"></small>
+    <h2 id="d-title"></h2>
+    <em class="dev" id="d-status" hidden>In development</em>
+    <p id="d-desc"></p>
+    <p class="ov" id="d-ov"></p>
+    <div class="dtags" id="d-tags"></div>
+    <a href="resources/MYPLAY Case-study.pdf" target="_blank" rel="noopener noreferrer" class="btn solid" id="d-case" hidden>View case study ↗</a>
+  </div>
+</dialog>
+
 </body>
 </html>
